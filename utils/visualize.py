@@ -6,6 +6,7 @@ import matplotlib
 import matplotlib.pyplot as plt
 
 from PIL import Image
+
 from tensorflow.keras.models import Model
 
 matplotlib.use('Agg')

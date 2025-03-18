@@ -8,6 +8,7 @@ import tensorflow as tf
 from flask import Flask, render_template, request, jsonify, Response
 from PIL import Image
 
+
 from utils.visualize import get_layer_outputs, get_intermediate_outputs, visualize_intermediate_outputs
 
 LARGE_IMAGE_SIZE = (280, 280)
